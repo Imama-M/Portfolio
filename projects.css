@@ -1,98 +1,91 @@
-header {
-    text-align: center;
-    background-color: lightblue;
-    color: white;
-}
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page 
+    MAKE SURE TO CHANGE UP THE COLOURS AND STUFF!!
+#B28BD9
+#DBD0F2
+#8E79D9
+#C9BDF2
+#9080F2
 
-#customfooter {
-    text-align: center;
-    background-color: lightblue;
-    color: black;
-}
-
-#first {
-    color: green;
-}
-
-.second {
-    color: orangered;
-}
-
-.element {
-    float: left;
-    margin-right: 20px;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.skill {
-    width: 360px;
-    background-color: aqua;
-}
-
-.project-item {
-    width: 360px;
-    background-color: orangered;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 16px;
-    color: white;
-    padding: 16px; /* I just added this */
-}
-
-/* 
-@media (condition) {
-
-}
 */
 
-@media (max-width: 600px) {
-    body {
-        /* font-size: 80px; */
-        background-color: lightgreen;
-    }
-
-    .project-item {
-        background-color: purple;
-    }
+body {
+background: #8e79d9;
+background: -moz-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: -webkit-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: -o-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+background-color: white;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
 }
 
-/* @media (min-width: 650px) {
-    body {
-        background-color: pink;
-    }
-} */
-
-/* min-height && max-height */
-
-/* 
-
-@media (condition1) and (condition2) {
-    body {
-        background-color: pink;
-    }
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+width: 960px;height: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color:rgb(173, 136, 236) ;
 }
 
-QUICK TASK 1:
--> ONLY FROM [650px - 800px]
-
--> Make (background-color) in the (body{}) ----> PINK
-
--> min-width & max-width
-*/
-
-@media (min-width: 650px) and (max-width: 800px) {
-    body {
-        background-color: pink
-    }
+/* The right-column ID style is floated right */
+#right-column {
+float: right;
+width: 710px;height: 600px;
+background-color:#DBD0F2;
 }
 
-@media (max-width: 400px) {
-    .project-item {
-        width: 180px;
-    }
+/* The left-column ID style is floated left */
+#left-column {
+float: left;
+width: 250px;background-color:#C9BDF2;
+height:600px;
+}
+
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+margin-left:15px;
+}
+
+
+#banner{
+height:120px;
+background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);;
+}
+
+/* Defining a style for a set of tags not separated by commas applies the style
+only to all tags within the preceding tag*/
+#banner h1 {
+color: white;
+}
+#right-column h1 {
+color: white;
+}
+#banner h3 {
+color: white;
+}
+/* Advanced Web design relies on class or ID styles, never tables */
+.box {
+height: 120px;
+width: 320px;float: left;
+background-color:#8e79d9;
+margin: 15px;
+opacity:.5;
+}
+
+/* The following pseudo-class applies to the box class when in a hovered state */
+.box:hover {
+background-color:white;
+opacity:1;
+}
+
+/* This clear class style terminates float */
+.clear{
+clear: both;
 }

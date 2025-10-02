@@ -4,11 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{Firstname} Portfolio</title>
-    <link rel="stylesheet" href="projects.css"> <!-- Linked CSS file -->
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="projects.css"> <!-- Linked CSS file -->
 </head>
-<body>
 
+<body>
+    <header>
+    <!--All our content is enclosed in the wrapper ID style-->
+    <div id="wrapper">
+    <!--The banner ID style is inside the wrapper ID style-->
+    <div id="banner">
+    <!--the main title-->
+    <br>
+    <h1>Projects</h1>
+    </div>
+    
+    <!--left-column ID style is floated left and used for navigation-->
+    <div id="left-column">
+    <h3>Navigation</h3>
     <ul> <!--this gives an indent to the navigation bar-->
     <!--this is the navigation links to the other pages-->
     <a href="home.html">Home</a>
@@ -17,61 +30,28 @@
     <br><a href="contact.html">Contact Me</a>
     <!--the br tag separates the current line onto the next one-->
     </ul>
+    </div>
 
-    <main>
-        <!-- About Section -->
-        <section id="about">
-            <h1>Who I Am</h1>
-            <p id="first">This is the first paragraph</p>
-            <p class="second">This is the second paragraph</p>
-            <p class="second">This is the third paragraph</p>
-        </section>
-    
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-list clearfix">
-                <!-- Example Project -->
-                <div class="project-item">
-                    <h3>Project Title 1</h3>
-                    <p>Brief description of the project goes here.</p>
-                </div>
-    
-                <!-- Example Project -->
-                <div class="project-item">
-                    <h3>Project Title 2</h3>
-                    <p>Brief description of the project goes here.</p>
-                </div>
-    
-                <!-- Example Project -->
-                <div class="project-item">
-                    <h3>Project Title 3.1</h3>
-                    <p>Brief description of the project goes here.</p>
-                </div>
-            </div>
-        </section>
-    
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul class="clearfix">
-                <li class="element skill">Skill 1</li>
-                <li class="element skill">Skill 2</li>
-                <li class="element skill">Skill 3</li>
-            </ul>
-        </section>
-    
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
-            <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
-        </section>
-    </main>
+    <!--main stuff of this page-->
+    <div id="right-column">
+        <h2>Past projects!! </h2>
+    <br>
+    <div class="box"><h6>Project 1: <br> Using object oriented programming, me and my group members made a Task Manager using python code. Its purpose was to serve as 
+    an agenda for both personal and academic needs. Creating this project helped us grow many of our skills in python and was a useful way to connect OOP concepts to our daily lives.  </h6></div>
+    <div class="box"><p>project 2</p></div>
+    <div class="box"><p>project 3</p></div>
+    <div class="box"><p>project 4</p></div>
+    <div class="box"><p>project 5</p></div>
+    <div class="box"><p>project 6</p></div>
+    </div>
+
+
+
 
     <!-- Footer -->
     <footer id="customfooter">
         <p>Copyright &copy; 2025 Imama Meraj </p>
     </footer>
+    </header>
 </body>
 </html>
