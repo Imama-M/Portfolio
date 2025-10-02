@@ -8,6 +8,8 @@
 #C9BDF2
 #9080F2
 
+ahh tbh ion really fw this current scheme so i might change it lowk
+
 */
 
 body {
@@ -36,20 +38,27 @@ background-color:rgb(173, 136, 236) ;
 /* The right-column ID style is floated right */
 #right-column {
 float: right;
-width: 600px;height: 600px;
+width: 660px;height: 600px;
 background-color:#DBD0F2;
+}
+
+/* placement for the picture */
+#picture {
+float: right;
+padding-right: 300px;
 }
 
 /* The left-column ID style is floated left */
 #left-column {
 float: left;
-width: 360px;background-color:#C9BDF2;
+width: 300px;background-color:#C9BDF2;
 height:600px;
 }
 
 /* Defining a style for a set of tags separated by commas applies the style to
 all tags */
 h1,h2,h3,h4,h5,h6,p,li {
+color: white;
 margin-left:15px;
 }
 

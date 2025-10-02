@@ -1,5 +1,5 @@
 <!--this is the about me page, with a pic, intro and vid about me-->
-
+<!-- okay the only two things to do on this page are add a pic, vid and a lil blurb-->
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -10,6 +10,7 @@
     <!-- The following line links to our style sheet file-->
     <link rel="stylesheet" type="text/css" href="about.css">
 </head>
+
 <!--Content visible in the browser's window is inside the HTML element-->
 <body>
     <!--All our content is enclosed in the wrapper ID style-->
@@ -29,14 +30,30 @@
     <br><a href="contact.html">Contact Me</a>
     <!--the br tag separates the current line onto the next one-->
     </ul>
+    <!--embedding the image-->
+    <div id="picture">
+        <img src="Portfolio_Pic.jpg" alt="Left Aligned" width="200" height="300">
     </div>
-    <!--so this is where wtv we wanna put in the about page would go-->
+    </div>
+
+
+    <!--embedding the video-->
     <div id="right-column">
     <h2>A little bit about me </h2>
-    <br>
-    <div class="box"><p>Box content</p></div>
-    <div class="box"><p>Box content</p></div>
-    <div class="box"><p>Box content</p></div>
+    <video width="600" height="300" controls>
+        <source src="Portfolio_Vid.mp4" type="video/mp4">
+        <br>
+        <button onclick="playPause()">Play or pause the video</button>
+        <script>
+        var myVideo=document.getElementById("video");
+        function playPause()
+        {
+        if (myVideo.paused)
+        myVideo.play();
+        else myVideo.pause();
+        }
+        </script>
+    </video>
  
     </div>
     <!--The clear class style clears (removes) float-->
