@@ -68,17 +68,6 @@ height:120px;
 background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
 }
 
-/* Defining a style for a set of tags not separated by commas applies the style
-only to all tags within the preceding tag*/
-#banner h1 {
-color: white;
-}
-#right-column h1 {
-color: white;
-}
-#banner h3 {
-color: white;
-}
 
 
 /* This clear class style terminates float */
