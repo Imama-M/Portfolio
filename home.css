@@ -65,7 +65,7 @@ margin-left:15px;
 
 #banner{
 height:120px;
-background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);;
+background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
 }
 
 /* Defining a style for a set of tags not separated by commas applies the style
@@ -79,20 +79,7 @@ color: white;
 #banner h3 {
 color: white;
 }
-/* Advanced Web design relies on class or ID styles, never tables */
-.box {
-height: 150px;
-width: 150px;float: left;
-background-color:tan;
-margin: 15px;
-opacity:.5;
-}
 
-/* The following pseudo-class applies to the box class when in a hovered state */
-.box:hover {
-background-color:white;
-opacity:1;
-}
 
 /* This clear class style terminates float */
 .clear{

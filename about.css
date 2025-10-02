@@ -1,13 +1,20 @@
 @charset "UTF-8";
-/* CSS Document */
-/* The body tag style applies to all elements on the page */
+/* CSS Document 
+color scheme!!
+#B28BD9
+#DBD0F2
+#8E79D9
+#C9BDF2
+#9080F2
+
+*/
 
 body {
-background: purple;
+background: #8E79D9;
 font-family: 'Times New Roman', Times, serif;
 padding:0px;
 margin:0px;
-background-color: black;
+background-color: #9080F2;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
@@ -18,18 +25,20 @@ margin:0px;
 width: 960px;height: 800px;
 margin-left: auto;
 margin-right: auto;
-background-color:rgb(173, 136, 236) ;
+background-color:rgb(173, 136, 236);
 }
 /* The right-column ID style is floated right */
 #right-column {
 float: right;
 width:660px;height: 600px;
-background-color:rgb(234, 198, 255);
+background-color:#DBD0F2;
 }
+
 /* The left-column ID style is floated left */
 #left-column {
 float: left;
-width: 300px;background-color:silver;
+width: 300px;
+background-color:#C9BDF2;
 height:600px;
 }
 
@@ -43,33 +52,29 @@ padding-left: 20px;
 all tags */
 h1,h2,h3,h4,h5,h6,p,li {
 margin-left:15px;
+color: white;
 }
+
 #footer {
 height:80px;
 }
+
+/* this is where the title is*/
 #banner{
 height:120px;
-background-color:SlateGrey;
+background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
+padding-top: 20px;
 }
+
 /* Defining a style for a set of tags not separated by commas applies the style
 only to all tags within the preceding tag*/
 #banner h1 {
 color: white;
 }
 
-/* Advanced Web design relies on class or ID styles, never tables */
-.box {
-height: 150px;
-width: 150px;float: left;
-background-color:tan;
-margin: 15px;
 
-}
-/* The following pseudo-class applies to the box class when in a hovered state */
-.box:hover {
-background-color:white;
-opacity:1;
-}
+
+
 /* This clear class style terminates float */
 .clear{
 clear: both;

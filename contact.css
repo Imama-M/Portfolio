@@ -5,12 +5,16 @@
 /* The body tag style applies to all elements on the page */
 body {
 /*background-color: rgb(0, 0, 0);*/
-background: yellow; 
-background: -moz-linear-gradient(left, red 0%, yellow 100%); 
-background: -webkit-linear-gradient(left, red 0%, yellow 100%);
-background: -o-linear-gradient(left, red 0%, yellow 100%); 
-background: linear-gradient(to right, red 0%,yellow 100%);
-font-family: "Roboto", sans-serif;
+background: #8e79d9;
+background: -moz-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: -webkit-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: -o-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+background: linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+background-color: white;
+font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 }
@@ -20,40 +24,40 @@ width: 960px;
 height: 800px;
 margin-left: auto;
 margin-right: auto;
-background-color:LightSlateGrey ;
+background-color:#DBD0F2;
 }
+
 /* The right-column ID style is floated right */
 #right-column {
 float: right;
 width: 600px;
 height: 600px;
-background-color:LightGray;
+background-color:#DBD0F2;
 }
 /* The left-column ID style is floated left */
 #left-column {
 float: left;
 width: 360px;
-background-color:silver;
+background-color:#C9BDF2;
 height:600px;
 }
+
 /* Defining a style for a set of tags separated by commas applies the style to
 all tags */
 h1,h2,h3,h4,h5,h6,p,li {
 margin-left:15px;
-}
-#footer {
-height:80px;
-}
-#banner{
-height:120px;
-background-color:SlateGrey;
+color: white;
 }
 
-/* Defining a style for a set of tags not separated by commas applies the style
-only to all tags within the preceding tag
-decides the colour for the banner text*/
-#banner h1 {
-color: white;
+#footer {
+height:80px;
+color:white;
+background-color: #8e79d9;
+}
+
+#banner{
+height:120px;
+background-color:#B28BD9;
 }
 
 /* Advanced Web design relies on class or ID styles, never tables
