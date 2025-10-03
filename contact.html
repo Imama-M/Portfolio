@@ -1,19 +1,20 @@
 <!-- this is the contact page -->
-<!DOCTYPE HTML>
+<!DOCTYPE HTML> <!--declaring the document is html5-->
 <html>
-    <head>
+    <head> <!--title-->
         <title> Feedback Form</title>
+        
+        <!-- The following line links to our style sheet file-->
         <link href="contact.css" rel="stylesheet" type="text/css">
 
-    <!-- linking the responsive css files -->
+    <!-- linking the responsive css files for desktop, tablet and mobile-->
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:960px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width: 960px)">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)">
-
-
     </head>
 
-    <body>
+    
+    <body> <!--main page content-->
         <!--All our content is enclosed in the wrapper ID style-->
         <div id="wrapper">
             <!--The banner ID style is inside the wrapper ID style-->
@@ -37,35 +38,42 @@
             </ul>
         </div> 
 
-        <div id="right-column">
+        <div id="right-column"> <!--this column is where the form actually is-->
             <h1> Feedback .... Stay in touch </h1>
+            <!--info for the form-->
             <form action= "mailto:imama.meraj@ontariotechu.net?subject=Feedback on website"
             enctype="text/plain"
             method="post"
             name="Form">
+            <!--asking the user their full name-->
             <p>
                 <label for="Fname">Full Name :</label>
                 <input type="text" name="Fname" size="40"
                 placeholder="Enter your full name" required>
             </p>
+            <!--asking the user for their phone number-->
             <p>
                 <label for="number">Phone Number :</label>
                 <input type="phone number" name="phone number" size="40" 
                 placeholder="Enter your phone number" required>
             </p>
+            <!--asking the user for their email address-->
             <p>
                 <label for="email">Email :</label>
                 <input type="email" name="email" size="40" 
                 placeholder="Enter your email address" required>
             </p>
+            <!--asking the user for any feedback they have-->
             <p>
                 <label for="feedback">Comments :</label>
                 <textarea name="feedback" cols="60" rows="8"></textarea>
             </p>
+            <!--if the user wants to be added to the maillist-->
             <p>
                 <input type="checkbox" name="maillist">
                 <label for="maillist">Put me on your e-list</label>                
             </p>
+            <!--then the rest and submission buttons at the end-->
             <br>
             <input type="reset" value="Reset">
             <input type="submit" value="Submit">
@@ -74,9 +82,13 @@
 
         <!--The clear class style clears (removes) float-->
         <div class="clear"></div>
+
+    <!--footer section-->
     <footer id="customfooter">
         <p>Copyright &copy; 2025 Imama Meraj </p>
     </footer>
+
+    
         </div>
     </body>
 </html>

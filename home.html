@@ -1,28 +1,27 @@
 <!-- The Home Page includes: navigation and a hello-->
-<!DOCTYPE HTML>
+<!DOCTYPE HTML> <!--declaring the document is html5-->
 <html>
+<!--starting the head section that contains the metadata, title and link to the css files-->
 <head>
-    <!--The UTF-8 character set provides the most support for all symbols and
-    characters-->
+    <!--The UTF-8 character set provides the most support for all symbols and characters-->
     <meta charset="UTF-8">
-    <!--makes sure the site shows properly on mobile-->
-    <meta name ="viewport" content="width=device-width, initial-scale=1">
+
+
     <!--the title-->
     <title>Home Page</title>
-    <!-- The following line links to our css file-->
+    
+    <!-- The following line links to our css file for this page-->
     <link rel="stylesheet" type="text/css" href="home.css">
 
-    <!-- linking the responsive css files -->
+    <!-- linking the responsive css files for desktop, tablet and mobile -->
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:960px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width: 960px)">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)">
-
-
 </head>
 
 <!--Content visible in the actual browser's starts here-->
 <body>
-    <header>
+    <header> <!--header contains a lot of the main stuff-->
         <!--All our content is enclosed in the wrapper ID style-->
         <div id="wrapper">
         <!--The banner ID style is inside the wrapper ID style-->
@@ -51,13 +50,16 @@
             <h2>Welcome to My Portfolio</h2>
             <p> My name is Imama and welcome to my portfolio!</p>
         
+        <!--adding the picture in with a div to hold it-->
             <div id="picture">
             <img src="JellyCat.jpg" width="300" height="400">
         </div>
-
         </div>
+
         <!--The clear class style clears (removes) float-->
         <div class="clear"></div>
+
+    <!--footer section-->
     <footer id="customfooter">
         <p>Copyright &copy; 2025 Imama Meraj </p>
     </footer>
@@ -65,6 +67,3 @@
     </header>
 </body>
 </html>
-
-<!-- okay just some notes:
- - this is the intro page so we really dont need extra stuff here-->

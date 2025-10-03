@@ -1,17 +1,17 @@
 @charset "UTF-8";
-/* CSS Document */
-/* The body tag style applies to all elements on the page 
+/* CSS Document for the home page */
+/* UTF-8 supports a wide range of characters/symbols 
 
+these colors are from the pallete I chose and put them here for easy access
 #B28BD9
 #DBD0F2
 #8E79D9
 #C9BDF2
 #9080F2
-
-ahh tbh ion really fw this current scheme so i might change it lowk
-nvm im too lazy to change it now screw it
 */
 
+/*this where the linear gradients are happening
+things like the fonts that'll be used, the padding, margin and background colours are declared here*/
 body {
 background: #8e79d9;
 background: -moz-linear-gradient(top,#B28BD9 0%, #C9BDF2 100%);
@@ -22,12 +22,10 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 background-color: white;
-font-family: Verdana, Geneva, Arial, sans-serif;
-padding:0px;
-margin:0px;
 }
 
-/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+/* The wrapper ID style is used with a div tag to provide a 960px wide page 
+the measurements for the different elements are here as well as the margins and background color*/
 #wrapper {
 width: 90%;
 height: auto;
@@ -36,7 +34,8 @@ margin-right: auto;
 background-color:rgb(173, 136, 236) ;
 }
 
-/* The right-column ID style is floated right */
+/* The right-column ID style is floated right
+the measurements for the different elements are here as well as the margins and background color*/
 #right-column {
 float: right;
 width: 70%;
@@ -44,7 +43,8 @@ height: auto;
 background-color:#DBD0F2;
 }
 
-/* The left-column ID style is floated left */
+/* The left-column ID style is floated left
+the measurements for the different elements are gere as well as the margins and background color*/
 #left-column {
 float: left;
 width: 30%;
@@ -53,20 +53,19 @@ height:auto;
 }
 
 
-/* placement for the picture */
+/* placement for the picture which is to be in the right column*/
 #picture {
 float: right;
 padding-right: 5%;
 }
 
-/* Defining a style for a set of tags separated by commas applies the style to
-all tags */
+/* Defining a style for a set of tags separated by commas applies the style to all tags */
 h1,h2,h3,h4,h5,h6,p,li {
 color: white;
 margin-left:15px;
 }
 
-
+/*styling the banner*/
 #banner{
 height:120px;
 background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
@@ -77,6 +76,7 @@ background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
 clear: both;
 }
 
+/*styling the footer*/
 #footer{
 height:80px;
 color:white;

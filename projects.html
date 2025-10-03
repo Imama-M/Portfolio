@@ -1,22 +1,26 @@
 <!--this is the projects page that shows 6 projects i've done-->
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--declaring the document is html5-->
+<html lang="en"> <!--setting the language to engligh-->
 <head>
-
+    <!--starting the head section that contains the metadata, title and link to the css files-->
+    <!--The UTF-8 character set provides the most support for all symbols and
+    characters-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" type="text/css" href="projects.css"> <!-- Linked CSS file -->
-    <!-- linking the responsive css files -->
+
+    <title>Projects</title> <!--title-->
+
+    <!-- The following line links to our style sheet file-->
+    <link rel="stylesheet" type="text/css" href="projects.css"> 
+    
+    <!-- linking the responsive css files for desktop, tablet and mobile -->
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:960px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width: 960px)">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)">
 
-
-
 </head>
 
 <body>
+    <!--header section-->
     <header>
     <!--All our content is enclosed in the wrapper ID style-->
     <div id="wrapper">
@@ -43,8 +47,9 @@
 
     <!--main stuff of this page-->
     <div id="right-column">
-        <h2>Past projects!! </h2>
+        <h2>Past projects!! </h2> <!--section's title-->
         
+        <!--each project gets its own box with a heading and explanation-->
         <div class="box"> <p>Task Manager (Object Oriented Programming): <br> Using object oriented programming, me and my group members made a Task Manager using python code. Its purpose was to serve as 
         an agenda for both personal and academic needs. Creating this project helped us grow many of our skills in python and was a useful way to connect OOP concepts to our daily lives.</p>  </div>
         <div class="box"><p>Excel Calculator (Business Analytics): <br> Using VBA functions in excel, I made a Future Value of an Annuity Calculator. The purpose of this was to apply our VBA skills 
@@ -61,8 +66,6 @@
 
     <!--The clear class style clears (removes) float-->
     <div class="clear"></div>
-
-
 
     <!-- Footer -->
     <footer id="customfooter">
