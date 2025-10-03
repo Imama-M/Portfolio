@@ -6,11 +6,18 @@
     characters-->
     <meta charset="UTF-8">
     <!--makes sure the site shows properly on mobile-->
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
     <!--the title-->
     <title>Home Page</title>
     <!-- The following line links to our css file-->
     <link rel="stylesheet" type="text/css" href="home.css">
+
+    <!-- linking the responsive css files -->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:960px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width: 960px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)">
+
+
 </head>
 
 <!--Content visible in the actual browser's starts here-->
@@ -45,7 +52,7 @@
             <p> My name is Imama and welcome to my portfolio!</p>
         
             <div id="picture">
-            <img src="JellyCat.jpg" alt="Center Aligned" width="300" height="400">
+            <img src="JellyCat.jpg" width="300" height="400">
         </div>
 
         </div>

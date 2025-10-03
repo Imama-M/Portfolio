@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* this is the css file for mobile fluidness*/
+
+#wrapper{
+width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+background-color:rgb(173, 136, 236) ;
+
+}
+
+
+#left-column{
+float: none;
+width: 100%;
+height: auto;
+background-color:#C9BDF2;
+
+}
+
+#right-column{
+float: none;
+width: 100%;
+height: auto;
+background-color:#DBD0F2;
+
+}
+
+.box{
+float: none;
+width: 100%;
+margin: 5px 0;
+}
+
+#picture{
+float: none;
+padding-right: 0%;
+text-align: center;
+}

@@ -2,54 +2,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="projects.css"> <!-- Linked CSS file -->
+    <!-- linking the responsive css files -->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:960px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:481px) and (max-width: 960px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)">
+
+
+
 </head>
 
 <body>
     <header>
     <!--All our content is enclosed in the wrapper ID style-->
     <div id="wrapper">
-    <!--The banner ID style is inside the wrapper ID style-->
-    <div id="banner">
-    <!--the main title-->
-    <br>
-    <h1>Projects</h1>
-    </div>
+        <!--The banner ID style is inside the wrapper ID style-->
+        <div id="banner">
+        <!--the main title-->
+        <br>
+        <h1>Projects</h1>
+        </div>
+    </header>
     
     <!--left-column ID style is floated left and used for navigation-->
     <div id="left-column">
-    <h3>Navigation</h3>
-    <ul> <!--this gives an indent to the navigation bar-->
-    <!--this is the navigation links to the other pages-->
-    <a href="home.html">Home</a>
-    <br><a href="about.html">About Me</a>  
-    <br><a href="projects.html">Projects</a> 
-    <br><a href="contact.html">Contact Me</a>
-    <!--the br tag separates the current line onto the next one-->
-    </ul>
-    </div>
+        <h3>Navigation</h3>
+        <ul> <!--this gives an indent to the navigation bar-->
+            <!--this is the navigation links to the other pages-->
+            <a href="home.html">Home</a>
+            <br><a href="about.html">About Me</a>  
+            <br><a href="projects.html">Projects</a> 
+            <br><a href="contact.html">Contact Me</a>
+            <!--the br tag separates the current line onto the next one-->
+        </ul>
+        </div>
 
     <!--main stuff of this page-->
     <div id="right-column">
         <h2>Past projects!! </h2>
-    
-    <div class="box"> <p>Task Manager (Object Oriented Programming): <br> Using object oriented programming, me and my group members made a Task Manager using python code. Its purpose was to serve as 
-    an agenda for both personal and academic needs. Creating this project helped us grow many of our skills in python and was a useful way to connect OOP concepts to our daily lives.</p>  </div>
-    <div class="box"><p>Excel Calculator (Business Analytics): <br> Using VBA functions in excel, I made a Future Value of an Annuity Calculator. The purpose of this was to apply our VBA skills 
-        towards creating an application that would calculate financial calculations, generate graphs and compile reports.</p></div>
-    <div class="box"><p>Calculate (Computer Architecture): <br> I applied my knowledge of low level logic gates and binary operations to build a basic calculator. This project enhanced my
-         skills with digital systems. </p></div>
-    <div class="box"><p>Excel Dashboard (Business Analytics) <br> To show data in a visual format using graphs and charts compiled into a dashboard in excel. This project strengthened my data 
-        visualization skills, excel skills and analytical skills. </p></div>
-    <div class="box"><p>Jumble Player Game (Introduction to Programming) <br>I created a guessing game with python where the player has to unscramble the right word. This was another beginner 
-        level project that helped familiarize myself with concepts like string manipulation and designing a user interface. </p></div>
-    <div class="box"><p>Python Math Game (Grade 10 Computer Science) <br>Made a math quiz game that helps students practice basic arithmetic skills. This was an easy project since it was a lot of 
-        python basics and served as a practice for those basic python concepts like loops and user input.  </p></div>
+        
+        <div class="box"> <p>Task Manager (Object Oriented Programming): <br> Using object oriented programming, me and my group members made a Task Manager using python code. Its purpose was to serve as 
+        an agenda for both personal and academic needs. Creating this project helped us grow many of our skills in python and was a useful way to connect OOP concepts to our daily lives.</p>  </div>
+        <div class="box"><p>Excel Calculator (Business Analytics): <br> Using VBA functions in excel, I made a Future Value of an Annuity Calculator. The purpose of this was to apply our VBA skills 
+            towards creating an application that would calculate financial calculations, generate graphs and compile reports.</p></div>
+        <div class="box"><p>Calculate (Computer Architecture): <br> I applied my knowledge of low level logic gates and binary operations to build a basic calculator. This project enhanced my
+            skills with digital systems. </p></div>
+        <div class="box"><p>Excel Dashboard (Business Analytics) <br> To show data in a visual format using graphs and charts compiled into a dashboard in excel. This project strengthened my data 
+            visualization skills, excel skills and analytical skills. </p></div>
+        <div class="box"><p>Jumble Player Game (Introduction to Programming) <br>I created a guessing game with python where the player has to unscramble the right word. This was another beginner 
+            level project that helped familiarize myself with concepts like string manipulation and designing a user interface. </p></div>
+        <div class="box"><p>Python Math Game (Grade 10 Computer Science) <br>Made a math quiz game that helps students practice basic arithmetic skills. This was an easy project since it was a lot of 
+            python basics and served as a practice for those basic python concepts like loops and user input.  </p></div>
     </div>
 
+    <!--The clear class style clears (removes) float-->
+    <div class="clear"></div>
 
 
 
@@ -57,6 +68,6 @@
     <footer id="customfooter">
         <p>Copyright &copy; 2025 Imama Meraj </p>
     </footer>
-    </header>
+
 </body>
 </html>

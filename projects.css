@@ -78,11 +78,12 @@ color: white;
 }
 /* Advanced Web design relies on class or ID styles, never tables */
 .box {
-height: 120px;
-width: 320px;float: left;
+float: left;
+min-height: 120px;
+width: 45%;
 background-color:#8e79d9;
-margin: 15px;
-opacity:.5;
+margin: 2%;
+padding:10px
 }
 
 

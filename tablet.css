@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* this is the css file for tablet fluidness*/
+
+#wrapper{
+width: 95%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+background-color:rgb(173, 136, 236) ;
+
+}
+
+
+#left-column{
+float: left;
+width: 40%;
+height: auto;
+background-color:#C9BDF2;
+
+}
+
+#right-column{
+float: right;
+width: 60%;
+height: auto;
+background-color:#DBD0F2;
+
+}
+
+.box{
+float:left;
+width: 48%;
+margin: 1%;
+}
+
+#picture{
+float: right;
+padding-right: 3%;
+}

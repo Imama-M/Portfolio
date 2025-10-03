@@ -9,7 +9,7 @@
 #9080F2
 
 ahh tbh ion really fw this current scheme so i might change it lowk
-
+nvm im too lazy to change it now screw it
 */
 
 body {
@@ -29,7 +29,8 @@ margin:0px;
 
 /* The wrapper ID style is used with a div tag to provide a 960px wide page */
 #wrapper {
-width: 960px;height: 800px;
+width: 90%;
+height: auto;
 margin-left: auto;
 margin-right: auto;
 background-color:rgb(173, 136, 236) ;
@@ -38,21 +39,24 @@ background-color:rgb(173, 136, 236) ;
 /* The right-column ID style is floated right */
 #right-column {
 float: right;
-width: 660px;height: 600px;
+width: 70%;
+height: auto;
 background-color:#DBD0F2;
-}
-
-/* placement for the picture */
-#picture {
-float: right;
-padding-right: 300px;
 }
 
 /* The left-column ID style is floated left */
 #left-column {
 float: left;
-width: 300px;background-color:#C9BDF2;
-height:600px;
+width: 30%;
+background-color:#C9BDF2;
+height:auto;
+}
+
+
+/* placement for the picture */
+#picture {
+float: right;
+padding-right: 5%;
 }
 
 /* Defining a style for a set of tags separated by commas applies the style to
@@ -68,9 +72,13 @@ height:120px;
 background-color:linear-gradient(top,#DBD0F2 0%, #8e79d9 100%);
 }
 
-
-
 /* This clear class style terminates float */
 .clear{
 clear: both;
+}
+
+#footer{
+height:80px;
+color:white;
+background-color: #8e79d9;
 }

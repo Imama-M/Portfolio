@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#wrapper{
+width:90%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+background-color:rgb(173, 136, 236) ;
+}
+
+
+#left-column{
+float:left;
+width: 30%;
+height: auto;
+background-color:#C9BDF2;
+}
+
+#right-column{
+float:left;
+width: 70%;
+height: auto;
+background-color:#DBD0F2;
+}
+
+.box{
+float: left;
+width:45%;
+margin:2%;
+
+
+}
+
+#picture{
+float:right;
+padding-right:5%;
+}
+
+.clear{
+clear:both;
+}
